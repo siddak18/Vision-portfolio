@@ -16,6 +16,7 @@ module.exports = {
       // Extend or override the default theme here
       // Example: You can add custom colors, fonts, or breakpoints
       screens: {
+        'xsm':'500px',
         'sm': '640px',
         'md': '768px',
         'lg': '1024px',

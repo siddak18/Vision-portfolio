@@ -1,13 +1,21 @@
 import React from 'react'
 
-const Card = () => {
+
+interface eb{
+   title:String,
+   content:String,
+   git:String,
+   islive:String,
+   img:string
+}
+const Card:React.FC<eb> = (expe) => {
   return (
     <div data-aos="zoom-in-up" className="max-w-sm rounded overflow-hidden shadow-2xl">
-    <img className="w-full" src="https://siddakrajpal.netlify.app/project1.png" alt="Sunset in the mountains"/>
+    <img className="w-full" src={expe.img} alt="Sunset in the mountains"/>
     <div className="px-6 py-4">
-    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <div className="font-bold text-xl mb-2">{expe.title}</div>
     <p className="text-gray-700 text-base">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    {expe.content}
     </p>
     </div>
     <div className="px-6 pt-4 pb-2">

@@ -10,7 +10,7 @@ const Resume = () => {
       <div className='w-full flex flex-col justify-center '>
       <p data-aos="fade-up" className='mt-4 font-medium text-3xl'> Here are my experiences and qualifications.</p>
       <div className='flex  w-full justify-center'>
-      <div className=' grid mt-10 grid-cols-2  gap-10  w-full align-middle justify-between items-center'>
+      <div className=' flex mt-10 flex-col lg:flex-row  gap-10   w-full align-middle justify-between items-center'>
       <Resumecard></Resumecard>
       <Resumecard></Resumecard>
       </div>
