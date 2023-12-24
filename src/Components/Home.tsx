@@ -14,7 +14,7 @@ const Home = () => {
       insta:"https://www.instagram.com/siddakrajpal/",
       linkedin:"https://www.linkedin.com/in/siddak-rajpal-21b32b233/",
       facebook:"https://www.instagram.com/siddakrajpal/",
-      twitter:"https://www.instagram.com/siddakrajpal/"
+      twitter:"https://leetcode.com/siddakrajpal/"
     }
   };
   
@@ -63,11 +63,10 @@ const Home = () => {
            </div>
            <div data-aos="fade-down" className="mt-5 transition duration-1000">
             <ul className="flex gap-5">
-              <li><a href={data.links.github}>{mediaicons.github}</a></li>
-              <li><a href={data.links.insta}>{mediaicons.instaicon}</a></li>
-              <li><a href={data.links.linkedin}>{mediaicons.linkdinicon}</a></li>
-              <li><a href={data.links.facebook}>{mediaicons.facebookicon}</a></li>
-              <li><a href={data.links.twitter}>{mediaicons.twittericon}</a></li>
+              <li className="hover:scale-125 transition duration-1000"><a href={data.links.github}>{mediaicons.github}</a></li>
+              <li className="hover:scale-125 transition duration-1000"><a href={data.links.insta}>{mediaicons.instaicon}</a></li>
+              <li className="hover:scale-125 transition duration-1000"><a href={data.links.linkedin}>{mediaicons.linkdinicon}</a></li>
+              <li className="hover:scale-125 transition duration-1000"><a href={data.links.twitter}>{mediaicons.twittericon}</a></li>
             </ul>
            </div>
         </div>

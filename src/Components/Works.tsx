@@ -1,36 +1,37 @@
 
 import Card  from './Card'
 import React from 'react'
-
+import img from "../Assets/Screenshot 2023-12-24 210718.png"
+import img2 from "../Assets/Screenshot 2023-12-24 211750.png"
 const Works = () => {
   const expens=[{
     title:"Expense Tracker",
     content:"The tech stack I used to create the expense tracker includes React and Redux for the frontend. On the backend, I utilized Express and Node.js, and for the database, I employed MongoDB. The application follows a CRUD (Create, Read, Update, Delete) approach, providing functionality to manage and track finances.",
-    git:"",
-    islive:"will be live soon",
+    git:"https://github.com/siddak18/Expense",
+    islive:false,
     link:"#",
     img:"https://siddakrajpal.netlify.app/project1.png"
   },{
-    title:"Expense Tracker",
-    content:"The tech stack I used to create the expense tracker includes React and Redux for the frontend. On the backend, I utilized Express and Node.js, and for the database, I employed MongoDB. The application follows a CRUD (Create, Read, Update, Delete) approach, providing functionality to manage and track finances.",
-    git:"",
-    islive:"will be live soon",
+    title:"Todo List",
+    content:"It is a CRUD-based web app where Redux is employed for state management. The provided features allow users to create, update, delete, and read todos. Additionally, there is a toggle functionality for todos. For the frontend, React is utilized, and MongoDB Atlas serves as the database",
+    git:"https://github.com/siddak18/TodoList",
+    islive:false,
     link:"#",
     img:"https://siddakrajpal.netlify.app/todo.png"
   },{
-    title:"Expense Tracker",
-    content:"The tech stack I used to create the expense tracker includes React and Redux for the frontend. On the backend, I utilized Express and Node.js, and for the database, I employed MongoDB. The application follows a CRUD (Create, Read, Update, Delete) approach, providing functionality to manage and track finances.",
-    git:"",
-    islive:"will be live soon",
-    link:"#",
-    img:"https://siddakrajpal.netlify.app/project1.png"
+    title:"Uthaan Foundation",
+    content:"It is a frontend-only website built using HTML, CSS, and JavaScript. The website is developed for an NGO named Uthaan Foundation, featuring five pages that display data in a structured manner. Additionally, Swiper.js is employed to enhance user experience through carousels.",
+    git:"https://github.com/siddak18/saxena",
+    islive:true,
+    link:"http://www.uthaanfoundation.com/",
+    img:img
   },{
-    title:"Expense Tracker",
-    content:"The tech stack I used to create the expense tracker includes React and Redux for the frontend. On the backend, I utilized Express and Node.js, and for the database, I employed MongoDB. The application follows a CRUD (Create, Read, Update, Delete) approach, providing functionality to manage and track finances.",
-    git:"",
-    islive:"will be live soon",
-    link:"#",
-    img:"https://siddakrajpal.netlify.app/project1.png"
+    title:"Portfolio",
+    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
+    git:"https://github.com/siddak18/Vision-portfolio",
+    islive:true,
+    link:"https://vision-portfolio-gamma.vercel.app/",
+    img:img2
   },
    ]
   return (

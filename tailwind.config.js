@@ -42,7 +42,8 @@ module.exports = {
         'n':'2px'
       },
       height:{
-        'n':'1px'
+        'n':'1px',
+        'hmax':'31rem'
       }
     },
   },

@@ -72,7 +72,7 @@ const Skills = () => {
         label: 'Skills',
       },
     ],
-      width:screenw-200,
+      width:screenw-50,
       height:600,
   };
     const valueFormatter = (value: number) => `${value}%`;

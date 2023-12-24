@@ -20,7 +20,7 @@ const Resumecard:React.FC<inter> = (Info) => {
          <div className="c1 w-3 h-3 rounded-full bg-white border-2 border-yellow-500"></div>
          </div>
          
-        <div className='w-11/12 border-n rounded-lg border-nav flex justify-center py-5'>
+        <div className='lg:w-11/12 w-full border-n rounded-lg border-nav flex justify-center py-5'>
             <div className=' w-11/12 py-3 '>
             <p className='text-xl font-semibold'> {Info.role} </p>
             <p className='text-md font-semibold text-slate-600'> {Info.organization} </p>
