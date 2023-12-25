@@ -27,7 +27,7 @@ const Letstalk = () => {
                 <div className='hover:scale-125 transition duration-1000'>
                 {mediaicons.linkdinicon}
                 </div>
-                <p className='text-white'>linkdin</p>
+                <p className='text-white'>linkedin</p>
                 </span>
                 </a>
             </div>
