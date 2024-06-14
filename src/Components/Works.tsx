@@ -8,8 +8,8 @@ const Works = () => {
     title:"Expense Tracker",
     content:"The tech stack I used to create the expense tracker includes React and Redux for the frontend. On the backend, I utilized Express and Node.js, and for the database, I employed MongoDB. The application follows a CRUD (Create, Read, Update, Delete) approach, providing functionality to manage and track finances.",
     git:"https://github.com/siddak18/Expense",
-    islive:false,
-    link:"#",
+    islive:true,
+    link:"https://expenses12.netlify.app",
     img:"https://siddakrajpal.netlify.app/project1.png"
   },{
     title:"Todo List",
