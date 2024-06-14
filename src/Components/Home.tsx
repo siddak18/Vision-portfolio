@@ -12,7 +12,7 @@ const Home = () => {
     links:{
       github:"https://github.com/siddak18",
       insta:"https://www.instagram.com/siddakrajpal/",
-      linkedin:"https://www.linkedin.com/in/siddak-rajpal-21b32b233/",
+      linkedin:"https://www.linkedin.com/in/siddakrajpal",
       facebook:"https://www.instagram.com/siddakrajpal/",
       twitter:"https://leetcode.com/siddakrajpal/"
     }
@@ -59,7 +59,7 @@ const Home = () => {
            <p data-aos="" className="sm:text-3xl xsm:text-2xl lg:text-3xl   2xl:text-xl 3xl:text-2xl 4xl:text-3xl mt-5 font-medium text-sm text-slate-600">{data.clginfo}</p>   
            <div data-aos="fade-down" className="mt-5 flex gap-4">
            <button className='py-3 px-8 flex justify-center text-lg hover:text-nav transition duration-500 items-center font-semibold rounded-lg h-10 bg-black text-white'><a href={Navobj.navbutton.link}>{Navobj.navbutton.name}</a></button>
-           <button className='py-3 px-8 flex justify-center text-lg hover:text-nav transition duration-500 items-center font-semibold rounded-lg h-10 bg-white text-black '><a className="flex align-middle gap-1" href="https://www.linkedin.com/in/siddak-rajpal-21b32b233/overlay/1635540070258/single-media-viewer/?type=DOCUMENT&profileId=ACoAADo_QXcB3V8ntaIheLinoLdIwF9qY-luAtc" download><p>Resume</p><span className="flex items-center">{downicon}</span></a></button>
+           <button className='py-3 px-8 flex justify-center text-lg hover:text-nav transition duration-500 items-center font-semibold rounded-lg h-10 bg-white text-black '><a className="flex align-middle gap-1" href="https://www.linkedin.com/in/siddakrajpal/overlay/1715938750486/single-media-viewer/?profileId=ACoAAE3au9cBu6lb8m2kcSDBknLA1PU5GLIlRas" download><p>Resume</p><span className="flex items-center">{downicon}</span></a></button>
            </div>
            <div data-aos="fade-down" className="mt-5 transition duration-1000">
             <ul className="flex gap-5">
