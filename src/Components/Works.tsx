@@ -11,7 +11,7 @@ const Works = () => {
     git:"https://github.com/siddak18/podcast",
     islive:true,
     link:"https://podcast-bv47-kb7xi88j0-siddak18s-projects.vercel.app/",
-    img:"l"
+    img:"https://drive.google.com/file/d/1iWBIZtutqTmV1jCt0Y13GtrtY5Xvsx3b/view?usp=sharing"
     },
     {
     title:"Expense Tracker",
