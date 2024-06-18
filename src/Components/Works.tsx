@@ -4,7 +4,16 @@ import React from 'react'
 import img from "../Assets/Screenshot 2023-12-24 210718.png"
 import img2 from "../Assets/Screenshot 2023-12-24 211750.png"
 const Works = () => {
-  const expens=[{
+  const expens=[
+    {
+      title:"Podcast",
+    content:"Built on the Next.js framework and utilizing Material-UI for a polished UI, this project integrates seamlessly with Firebase for backend services. Its core functionality enables users to create podcasts that are converted into text-to-speech using Amazon Polly. The application features intuitive podcast creation with dynamic audio generation capabilities, ensuring a user-friendly experience.",
+    git:"https://github.com/siddak18/podcast",
+    islive:true,
+    link:"https://podcast-bv47-kb7xi88j0-siddak18s-projects.vercel.app/",
+    img:"l"
+    },
+    {
     title:"Expense Tracker",
     content:"The tech stack I used to create the expense tracker includes React and Redux for the frontend. On the backend, I utilized Express and Node.js, and for the database, I employed MongoDB. The application follows a CRUD (Create, Read, Update, Delete) approach, providing functionality to manage and track finances.",
     git:"https://github.com/siddak18/Expense",
